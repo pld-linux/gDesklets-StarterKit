@@ -35,7 +35,7 @@ rm -rf Weather/locale/de/{CVS,LC_MESSAGES/CVS}
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_datadir}/gdesklets/{Sensors,Displays/%{pname}}
 
-cp -R ACPI Clock External Weather $RPM_BUILD_ROOT%{_datadir}/gdesklets/Sensors
+cp -R ACPI Clock $RPM_BUILD_ROOT%{_datadir}/gdesklets/Sensors
 cp -R gfx *.display $RPM_BUILD_ROOT%{_datadir}/gdesklets/Displays/%{pname}
 
 %py_comp $RPM_BUILD_ROOT%{_datadir}/gdesklets/Sensors
