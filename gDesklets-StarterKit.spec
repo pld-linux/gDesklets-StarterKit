@@ -1,4 +1,4 @@
-%define	pname	StarterKit
+%define		pname	StarterKit
 Summary:	This package contains some basic sensors and nice displays
 Summary(pl):	Ten pakiet zawiera kilka podstawowych czujników i ³adnych wy¶wietlaczy
 Name:		gDesklets-%{pname}
