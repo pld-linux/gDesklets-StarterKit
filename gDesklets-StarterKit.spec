@@ -3,7 +3,7 @@ Summary:	This package contains some basic sensors and nice displays
 Summary(pl):	Ten pakiet zawiera kilka podstawowych czujników i ³adnych wy¶wietlaczy
 Name:		gDesklets-%{pname}
 Version:	1
-Release:	3
+Release:	4
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.pycage.de/download/gdesklets/%{pname}.tar.bz2
