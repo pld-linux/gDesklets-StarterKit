@@ -3,7 +3,7 @@ Summary:	This package contains some basic sensors and nice displays
 Summary(pl):	Ten pakiet zawiera kilka podstawowych czujników i ³adnych wy¶wietlaczy
 Name:		gDesklets-%{pname}
 Version:	1
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.pycage.de/download/gdesklets/%{pname}.tar.bz2
@@ -26,8 +26,8 @@ wy¶wietlaczy.
 %setup -q -n %{pname}
 tail -c 10240 Install_ACPI_Sensor.bin 2>&1 | tar -xz 2>&1
 tail -c 10240 Install_Clock_Sensor.bin 2>&1 | tar -xz 2>&1
-tail -c 10240 Install_External_Sensor.bin 2>&1 | tar -xz 2>&1
-tail -c 20480 Install_Weather_Sensor.bin 2>&1 | tar -xz 2>&1
+#tail -c 10240 Install_External_Sensor.bin 2>&1 | tar -xz 2>&1
+#tail -c 20480 Install_Weather_Sensor.bin 2>&1 | tar -xz 2>&1
 
 rm -rf Weather/locale/de/{CVS,LC_MESSAGES/CVS}
 
