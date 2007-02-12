@@ -1,6 +1,6 @@
 %define		pname	StarterKit
 Summary:	This package contains some basic sensors and nice displays
-Summary(pl):	Ten pakiet zawiera kilka podstawowych czujników i ³adnych wy¶wietlaczy
+Summary(pl.UTF-8):   Ten pakiet zawiera kilka podstawowych czujnikÃ³w i Å‚adnych wyÅ›wietlaczy
 Name:		gDesklets-%{pname}
 Version:	1
 Release:	5
@@ -19,9 +19,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This package contains some basic sensors and nice displays.
 
-%description -l pl
-Ten pakiet zawiera kilka podstawowych czujników i ³adnych
-wy¶wietlaczy.
+%description -l pl.UTF-8
+Ten pakiet zawiera kilka podstawowych czujnikÃ³w i Å‚adnych
+wyÅ›wietlaczy.
 
 %prep
 %setup -q -n %{pname}
