@@ -1,6 +1,6 @@
 %define		pname	StarterKit
 Summary:	This package contains some basic sensors and nice displays
-Summary(pl.UTF-8):   Ten pakiet zawiera kilka podstawowych czujników i ładnych wyświetlaczy
+Summary(pl.UTF-8):	Ten pakiet zawiera kilka podstawowych czujników i ładnych wyświetlaczy
 Name:		gDesklets-%{pname}
 Version:	1
 Release:	5
